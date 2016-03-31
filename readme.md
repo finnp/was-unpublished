@@ -22,3 +22,11 @@ unpublished(name, version, function (err, isUnpublished) {
 ```
 usage: was-unpublished <pacakge> <version>
 ```
+
+Example
+```bash
+$ was-unpublished was-unpublished 1.0.0
+Yes, was-unpublished 1.0.0 was unpublished.
+$ was-unpublished was-unpublished 1.0.1
+No, was-unpublished 1.0.1 is still published.
+```
