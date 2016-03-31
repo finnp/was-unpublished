@@ -1,0 +1,22 @@
+{
+  "name": "was-unpublished",
+  "version": "1.0.0",
+  "description": "Look up in the npm registry if a node module version was unpublished\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finnp/was-unpublished.git"
+  },
+  "keywords": [
+    "unpublish"
+  ],
+  "author": "Finn Pauls",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/finnp/was-unpublished/issues"
+  },
+  "homepage": "https://github.com/finnp/was-unpublished#readme"
+}
