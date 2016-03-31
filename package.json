@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Look up in the npm registry if a node module version was unpublished\"",
   "main": "index.js",
+  "bin": "./cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/finnp/was-unpublished/issues"
   },
-  "homepage": "https://github.com/finnp/was-unpublished#readme"
+  "homepage": "https://github.com/finnp/was-unpublished#readme",
+  "dependencies": {
+    "simple-get": "2.0.0"
+  }
 }
